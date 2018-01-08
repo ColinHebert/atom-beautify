@@ -10,7 +10,7 @@ module.exports = class PuppetFix extends Beautifier
   link: "http://puppet-lint.com/"
 
   options: {
-    Puppet: true
+    Puppet: false
   }
 
   cli: (options) ->
